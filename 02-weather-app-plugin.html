@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body id="weather">
+  <h1>Current Weather</h1>
+    <div id="app">Checking the weather near you...</div>
+  <script src="assets/js/script-plugin.js" type="text/javascript"></script>
+  <script>
+
+    getWeather({
+      apiKey: 'aa294306b6e744c683ba3ae4a74fb531',
+      // convertTemp: false,
+      // location: '{{city}}, {{state}}',
+      // description: '☃ {{description}}',
+      // showFeels: false,
+      // showSunrise:false,
+      // showSunset: false,
+      // showVisibility: false,
+      // showWind: false,
+      // showHumidity: false,
+      noWeather: 'No weather available where you are!',
+      // showIcon: false
+    });
+
+    // -- Check Temp Toggle State
+    
+    var tempItem = document.querySelectorAll(".temp-now");
+  
+
+  </script>
+</body>
+</html>
