@@ -12,9 +12,9 @@ An app that gets a user’s location and displays their current weather informat
 
 ### Part 2
 
-**Weather App Plugin**  [Demo](https://letioneill.github.io/weather/02-weather-app-plugin.html)
+**Weather App Plugin**  [Demo](https://letioneill.github.io/weather/02-weather-plugin.html)
 
-*Modify weather app script to convert it into a plugin. *
+*Modify weather app script to convert it into a plugin.*
 
 Customizable Options [located in the footer of html files]
 
